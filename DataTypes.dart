@@ -15,5 +15,5 @@ void main() {
   print("Hello, $name!"); // Interpolazione di stringa
   print("Hello, ${name.toUpperCase() + " " + surname.toLowerCase()}!"); // Interpolazione di espressioni
   print("Dynamic $age");  
-  
+  print("Hello ${name2.toUpperCase() + " " + cogname2.toUpperCase()}!");
 }
