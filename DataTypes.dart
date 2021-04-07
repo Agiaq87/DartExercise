@@ -27,6 +27,7 @@ void main() {
   print("Hello, ${name.toUpperCase() + " " + surname.toLowerCase()}!"); // Interpolazione di espressioni
   print("Dynamic $age");  
   print("Hello ${name2.toUpperCase() + " " + cogname2.toUpperCase()}!");
+  print("Name2 have a length of: ${name2.length}, with first char at index 0 of: ${name2[0]}");
   print("The query is: $query");
   
   print("Integer value is: $numi");
