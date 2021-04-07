@@ -15,11 +15,19 @@ void main() {
   final double numPi = 3.14159;
   final num result = numi - numPi;  // In genere bisogna evitare l'uso di num
   
+  final String query = """          
+    SELECT name, surname, age
+    FROM people
+    WHERE age >= 18
+    ORDER BY name DESC
+  """;                              // Query
+  
 
   print("Hello, $name!"); // Interpolazione di stringa
   print("Hello, ${name.toUpperCase() + " " + surname.toLowerCase()}!"); // Interpolazione di espressioni
   print("Dynamic $age");  
   print("Hello ${name2.toUpperCase() + " " + cogname2.toUpperCase()}!");
+  print("The query is: $query");
   
   print("Integer value is: $numi");
   print("bitLength: ${numi.bitLength}");
