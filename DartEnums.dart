@@ -4,6 +4,6 @@ void main() {
   Fruits liked = Fruits.Apple;
   var liked2 = Fruits.Orange;
   
-  print(liked.toString());
-  print(liked.index);
+  print(liked.toString()); // Print Fruits.Apple
+  print(liked.index);      // Print 0
 }
